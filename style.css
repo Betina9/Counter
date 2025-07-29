@@ -41,3 +41,19 @@ h2 {
 #Increment-btn:active {
   transform: scale(0.97);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  #Reset-btn {
+background-color: hsl(220, 80%, 60%);
+  color: hsl(0, 0%, 100%);
+  border: 2px solid #000000;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  font-weight: bold;
+  width: 200px;
+  font-size: 25px;
+  margin: auto;
+  cursor: pointer;
+  }

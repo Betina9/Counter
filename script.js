@@ -14,6 +14,5 @@ function reset() {
   countEl.textContent = count;
 }
 
-// Event listeners
 incrementBtn.addEventListener("click", increment);
 resetBtn.addEventListener("click", reset);
